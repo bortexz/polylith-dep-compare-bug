@@ -1,0 +1,4 @@
+{:paths ["src" "resources"]
+ :deps {com.cognitect.aws/api {:mvn/version "0.8.692"}}
+ :aliases {:test {:extra-paths ["test"]
+                  :extra-deps {}}}}
